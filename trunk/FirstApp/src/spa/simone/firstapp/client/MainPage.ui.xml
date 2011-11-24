@@ -2,18 +2,9 @@
 <ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
 	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:m="urn:import:com.gwtmobile.ui.client.widgets">
 	<g:HTMLPanel>
-		<m:HeaderPanel>
-			<g:Label>
-				First App
-			</g:Label>
-		</m:HeaderPanel>
-		<m:TextBox ui:field="usernameTextBox" focus="true" />
-		<m:PasswordTextBox ui:field="passwordTextBox" />
 		<m:ScrollPanel>
-			<m:ListPanel ui:field="list" showArrow="true">
-				<g:Label title="First Page">First Page</g:Label>
-				<g:Label title="Second Page">Second Page</g:Label>
-			</m:ListPanel>
+			<g:Label>PageOne</g:Label>
+			<g:Label>PageTwo</g:Label>
 		</m:ScrollPanel>
 	</g:HTMLPanel>
 </ui:UiBinder> 
