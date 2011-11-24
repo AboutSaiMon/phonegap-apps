@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>FirstApp</name>
-	<comment></comment>
+	<comment>
+		FirstApp è una demo, utilizzata per testare le funzionalità di PhoneGap
+		sui dispositivi mobili. 
+	</comment>
 	<projects>
 	</projects>
 	<buildSpec>
