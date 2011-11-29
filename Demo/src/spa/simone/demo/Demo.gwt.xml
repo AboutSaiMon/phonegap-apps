@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='demo'>
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name="com.google.gwt.user.User" />
+	<!-- Inherit Phone Gap -->
+	<inherits name="com.googlecode.gwtphonegap.PhoneGap" />
+	<!-- Inherit Mobile GWT -->
+	<inherits name="com.googlecode.mgwt.MGWT" />
+	<!-- Specify the app entry point class. -->
+	<entry-point class="spa.simone.demo.client.Demo" />
+	<!-- Specify the paths for translatable code -->
+	<source path="client" />
+</module>
