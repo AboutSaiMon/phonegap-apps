@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='whoami'>
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name='com.google.gwt.user.User' />
+	<!-- Inherit GWT Mobile UI -->
+	<inherits name='com.gwtmobile.ui.gwtmobile_ui' />
+	<!-- Inherit GWT Mobile Phone Gap -->
+	<inherits name='com.gwtmobile.phonegap.gwtmobile_phonegap' />
+	<!-- Specify the app entry point class. -->
+	<entry-point class='spa.simone.whoami.client.WhoAmI' />
+	<!-- Specify the paths for translatable code -->
+	<source path='client' />
+</module>
