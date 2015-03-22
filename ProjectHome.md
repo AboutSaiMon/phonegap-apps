@@ -1,0 +1,1 @@
+Implementazione di un'applicazione mobile per tutti i dispositivi mobili.
